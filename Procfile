@@ -1,1 +1,1 @@
-web: python arpic-demo.py
+web: python app.py
