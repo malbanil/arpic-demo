@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct 17 19:58:03 2020
+Created on oct 28 2020
 
 @author: albanilm
 """
@@ -9,7 +9,7 @@ import time
 
 def main(n):   
     with open('log.txt', 'a') as file:
-        print(n)
+        print('n:' + str(n) )
         file.write(str(n) + " \n") 
     file.close()
 
